@@ -12,10 +12,61 @@ body {
 
 h1 {
   font-size: 5rem;
+  display: inline-block;
+  width: 800px;
+}
+
+h2 {
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+
+.logo {
+  display: block;
+}
+
+p {
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+
+.card {
+  display: inline-block;
+  width: 600px;
+  height: 200px;
+  margin: 0;
+}
+
+.left {
+  position: relative;
+  top: 100px;
+}
+
+.right {
+  position: relative;
+  bottom: 170px;
+}
+
+.tile-image {
+  display: block;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top: 150px;
+  float: left;
+}
+
+span {
+  color: #191970;
 }
 
 footer {
   text-align: right;
   color: midnightblue;
+  position: relative;
+  bottom: 150px;
+  right: 80px;
 }
 
